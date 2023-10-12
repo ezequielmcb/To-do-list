@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.contenedor-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.contenedor {
+    height: 80vh;
+    width: 36rem;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: unset;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(220, 220, 220);
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 3px solid rgb(47, 128, 237);
+
+}
+
+.task-input{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    gap: 20px;
+}
+
+.input {
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    height: 3rem;
+    width: 100%;
+    padding: 1rem;
+}
+
+.btn-add {
+    background-color: rgb(47, 128, 237);
+    color: white;
+    height: 3rem;
+    border-radius: 10px;
+    width: 25%;
+    cursor: pointer;
+    border: transparent;
+}
+
+.contenedor-lista {
+    margin-top: 17px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.checkbox {
+    height: 20px;
+    width: 20px;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.secdelete {
+    display: flex;
+    justify-content: end;
+}
+.secdelete > i{
+    cursor: pointer;
+}
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(235, 87, 87);
+    color: #fff;
+    height: 2.5rem;
+    width: 7.5rem;
+    gap: 5px;
+    font-size: 10px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+}
+
+.task label p.checked {
+    text-decoration: line-through;
+
+}
+
+.clear-btn:active {
+    transform: scale(0.93);
+
+}
+
+.filters span.active {
+    color: #3C87FF;
+}
+
+.task-box.overflow {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.task-menu.show {
+    transform: scale(1);
+}

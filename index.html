@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to Script -->
+    <script src="./main.js" defer></script>
+
+    <!-- Link to CSS -->
+
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/302e5dde8e.js" crossorigin="anonymous"></script>
+
+    <title>To-Do App</title>
+
+</head>
+
+<body>
+  <section class="contenedor-principal">
+    <h1 class="title">#todo</h1>
+    <div class="contenedor">
+      <div class="sections">
+        <span class="active btn" id="all">All</span>
+        <span class="btn" id="active">Active</span>
+        <span class="btn" alt="icon" id="completed">Completed</span>
+      </div>
+      <dvi class="ingresar ">
+        <div class="task-input">
+          <input type="text" class="input" placeholder="add details">
+          <button class="btn-add" id="btnAgregarTarea">Add</button>
+        </div>
+        <ul class="task-box contenedor-lista">
+
+        </ul >
+        <div class="secdelete">
+          <button class="clear-btn delete checked">
+            <i class="fa fa-trash"></i> delete all
+          </button>
+        </div>
+      </dvi>
+    </div>
+  </section>
+
+</body>
+
+</html>
